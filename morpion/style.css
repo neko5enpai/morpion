@@ -1,5 +1,12 @@
-/* Stylesheet for Tic Tac Toe */
-/* Project by Mohamad & Virginie */
+/*
+    __  ___                 _           
+   /  |/  /___  _________  (_)___  ____ 
+  / /|_/ / __ \/ ___/ __ \/ / __ \/ __ \
+ / /  / / /_/ / /  / /_/ / / /_/ / / / /
+/_/  /_/\____/_/  / .___/_/\____/_/ /_/ 
+                 /_/                    
+
+Project by Mohamad & Virginie */
 /* November 2018 */
 /* Version : 1.0 */
 
@@ -56,6 +63,13 @@ body{
     background-color: rgb(136, 136, 136);
 }
 
+#copyright {
+    width: 800px;
+    font-family: 'Righteous', cursive;
+    margin: auto;
+    text-align: center;
+}
+
 /* Style de la page Nouvelle Partie */
 #game-content {
     width: 600px;
@@ -85,9 +99,10 @@ body{
     float:left;
 }
 .style-joueurs {
-    border: solid 2px  rgb(68, 2, 131);
+    border: solid 2px ;
+    border: none;
     color: white;
-    background-color:  rgb(68, 2, 131);
+    background-color:  rgb(136, 55, 212);
     border-radius: 10px;
     padding: 10px;
 }
