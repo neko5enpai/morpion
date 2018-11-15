@@ -1,8 +1,8 @@
 # Jeu du Morpion
 Formation Digitale - Projet Morpion
 
-Groupe: Virginie & Mohamad
-Date: 08 Novembre 2018
+Groupe: Virginie & Mohamad<br>
+Date: 08 Novembre 2018<br>
 Projet: Tic Tac Toe
 
 
