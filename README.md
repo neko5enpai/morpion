@@ -1,4 +1,4 @@
-# morpion
+# Jeu du Morpion
 Formation Digitale - Projet Morpion
 
 Groupe: Virginie & Mohamad
