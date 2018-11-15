@@ -1,3 +1,16 @@
+<!-- 
+    __  ___                 _           
+   /  |/  /___  _________  (_)___  ____ 
+  / /|_/ / __ \/ ___/ __ \/ / __ \/ __ \
+ / /  / / /_/ / /  / /_/ / / /_/ / / / /
+/_/  /_/\____/_/  / .___/_/\____/_/ /_/ 
+                 /_/                    
+
+Project by Mohamad & Virginie
+November 2018
+Version : 1.0
+-->
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -6,6 +19,7 @@
     <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet"> 
 <title>MORPION - NOUVELLE PARTIE</title>
 </head>
+
 <body>
 <div id="wrapper"> <!-- WRAPPER -->
     <div>
@@ -14,20 +28,20 @@
     <div id="game-content"> <!-- Grille du jeu + Nom des joueurs -->
         <div id="tic-tac-toe"><!-- Grille Morpion -->
             <table>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                <tr id = "row1">
+                    <td onclick="play(this)"></td>
+                    <td onclick="play(this)"></td>
+                    <td onclick="play(this)"></td>
                 </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                <tr id = "row2">
+                    <td onclick="play(this)"></td>
+                    <td onclick="play(this)"></td>
+                    <td onclick="play(this)"></td>
                 </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                <tr id = "row3">
+                    <td onclick="play(this)"></td>
+                    <td onclick="play(this)"></td>
+                    <td onclick="play(this)"></td>
                 </tr>
             </table> 
         </div>
@@ -36,7 +50,15 @@
             <p><span class="style-joueurs">Joueur 2</span></p><p>[Pseudo j2]</p>
         </div>
     </div>
-</div> <!-- WRAPPER END -->
 
+</div> <!-- WRAPPER END -->
+<div id="copyright">
+    <p>© Developped by Mohamad - Designed by Virginie</p>
+</div>
+
+
+<script type="text/javascript" src = "morpion.js">			
+		</script>
 </body>
+
 </html> 
