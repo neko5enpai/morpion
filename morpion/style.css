@@ -12,8 +12,12 @@ Project by Mohamad & Virginie */
 
 body{
     background-color:#E3CEF6;
-    
+    font-family: 'Righteous', cursive;
 }
+h2{
+    font-size: 24pt;
+    text-align: center;
+   }
 #wrapper{
     width: 800px;
     height: 100%;
@@ -22,20 +26,19 @@ body{
     border: solid 3px rgb(68, 2, 131);
     border-radius: 20px;
     padding: 30px;
-    font-family: 'Righteous', cursive;
     font-size: 20pt;
     text-align: center;
 }
-.insert-game{
+#insert-game{
     height: 100px;
     width: 500px;
     border: solid 3px rgb(68, 2, 131);
     border-radius: 15px;
-    font-family: 'Righteous', cursive;
     font-size: 40pt;
     text-align: center;
+    font-family: 'Righteous', cursive;
 }
-.player-entry {
+.player-entry1, .player-entry2 {
     height: 40px;
     width: 400px;
     margin: 10px;
@@ -46,13 +49,13 @@ body{
     font-family: 'Righteous', cursive;
 }
 .start {
+    font-family: 'Righteous', cursive;
     color: white;
     background-color: rgb(68, 2, 131);
     transition: background-color .5s;
     font-size: 15pt;
     height: 50px;
     width: 150px;
-    font-family: 'Righteous', cursive;
     border: none;
     border-radius: 5px;
 }
@@ -62,10 +65,8 @@ body{
 .start a:hover {
     background-color: rgb(136, 136, 136);
 }
-
 #copyright {
     width: 800px;
-    font-family: 'Righteous', cursive;
     margin: auto;
     text-align: center;
 }
@@ -76,9 +77,6 @@ body{
     height: 100%;
     margin: auto;
     overflow: auto;
-}
-.game-title h1{
-    font-family: 'Righteous', cursive;
 }
 #tic-tac-toe table {
     width: 400px;
