@@ -19,21 +19,50 @@ Version : 1.0
     <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet"> 
 <title>MORPION - ACCUEIL</title>
 </head>
+
+
 <body>
 <div id="wrapper"> <!-- WRAPPER -->
     <div>
         <h1>Tic Tac Toe</h1>
-        <input class="insert-game" type="text" name="Game" placeholder="Nom de la partie" /><br>
+        <input id="insert-game" type="text" name="Game" placeholder="Nom de la partie" /><br>
     </div>
         <br><br>
-        Joueur 1: <input class="player-entry" type="text" name="Pseudo" placeholder="Insérez votre pseudo" /><br>
-        Joueur 2: <input class="player-entry" type="text" name="Pseudo" placeholder="Insérez votre pseudo" /><br>
+        Joueur 1: <input class="player-entry1" id="player-entry1" type="text" name="Pseudo" placeholder="Insérez votre pseudo" /><br>
+        Joueur 2: <input class="player-entry2" id="player-entry2" type="text" name="Pseudo" placeholder="Insérez votre pseudo" /><br>
         <br>
-        <a href="nouvelle-partie.html"><input class="start" type="submit" value="Commencer" /></a>
+        <a href="nouvelle-partie.html" onclick="transfer();"><input class="start" type="submit" value="Commencer" /></a>
 </div> <!-- WRAPPER END -->
 <div id="copyright">
-    <p>© Developped by Mohamad - Designed by Virginie</p>
+    <p>© Developped and Designed by Mohamad & Virginie</p>
 </div>
+
+
+
+<script type="text/javascript">
+
+    function _(e){
+        return document.getElementById(e);
+    }
+
+
+    function transfer(){
+
+        var npartie = _("insert-game").value;
+        var j1      = _("player-entry1").value;
+        var j2      = _("player-entry2").value;
+
+
+        localStorage.setItem("npartie",npartie);
+        localStorage.setItem("player-entry1",j1);
+        localStorage.setItem("player-entry2",j2);
+
+    }
+
+
+</script>
+<script type="text/javascript" src = "morpion.js">			
+</script>
 
 </body>
 </html> 
